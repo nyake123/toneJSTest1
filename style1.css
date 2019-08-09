@@ -1,0 +1,132 @@
+
+#keyboard {
+
+    width: 100%;
+
+    opacity: 0.2;
+
+    position: relative;
+
+}
+
+#DengenOnbtn{
+
+  width: 100px;
+
+  height: 40px;
+
+  border: 0;
+
+  outline: none;
+
+  background-color: #88f;
+
+  cursor: pointer;
+
+  font-size: 18px;
+
+  font-weight: bold;
+
+  color: #fff;
+
+}
+
+.whitekey {
+
+    width: 10%;
+
+    height: 240px;
+
+    display: inline-block;
+
+    border: 1px solid #000;
+
+    position: relative;
+
+    top: 0;
+
+    z-index: 0;
+
+    
+
+}
+
+.whitekey:hover {
+
+  background-color: #eee;
+
+}
+
+
+
+.blackkey {
+
+    width: 9%;
+
+    height: 140px;
+
+    display: inline-block;
+
+    margin-left: -5%;
+
+    background-color: #000;
+
+    position: absolute;
+
+    top: 0;
+
+    z-index: 1;
+
+}
+
+.blackkey:hover {
+
+  background-color: #333;
+
+}
+
+
+
+.whitekey .text {
+
+    position: absolute;
+
+    bottom: 5px;
+
+    left: 30%;
+
+    color: #bbb;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+    z-index: 0;
+
+}
+
+.blackkey .text {
+
+    position: absolute;
+
+    bottom: 5px;
+
+    left: 15%;
+
+    color: #fff;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    z-index: 2;
+
+}
+
+
+
+.activekey {
+
+  background-color: #ccc;
+
+}
